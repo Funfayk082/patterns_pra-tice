@@ -8,9 +8,9 @@ namespace pattern_practice
 {
     public class PastPosition
     {
-        public String Name { get; set; }
+        public string Name { get; set; }
         public Department Department { get; set; }
-        public PastPosition(String position, Department dep)
+        public PastPosition(string position, Department dep)
         {
             Name = position;
             Department = dep;

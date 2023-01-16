@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace pattern_practice
 {
-    public class Menu
+    public interface Unit
     {
-        public void showEmployees(List<Employee> employees)
+        public int getPersonCount()
         {
-            Console.WriteLine(employees);
+            return 0;
         }
     }
 }
