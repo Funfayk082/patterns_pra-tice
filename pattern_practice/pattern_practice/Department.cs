@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace pattern_practice
 {
-    public class Department : Unit, Menu
+    public class Department : Unit
     {
         public string Name { get; set; }
         public List<Employee>? Employees;
