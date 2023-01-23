@@ -10,9 +10,11 @@ namespace pattern_practice
     public class Department : Unit
     {
         public string Name { get; set; }
-        List<Employee>? Employees = new List<Employee>();
+        List<Employee>? employees;
         
-        public Department(Employees){}
+        public Department(){
+            employees = new Employees();
+        }
         public void addEmployee(Employee e)
         {
             this.Employees.Add(e);
