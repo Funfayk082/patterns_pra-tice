@@ -13,24 +13,24 @@ namespace pattern_practice
         List<Employee>? employees;
         
         public Department(){
-            employees = new Employees();
+            employees = new List<Employee>();
         }
         public void addEmployee(Employee e)
         {
-            this.Employees.Add(e);
+            this.employees.Add(e);
         }
         public List<Employee> getEmployees()
         {
-            return this.Employees;
+            return this.employees;
         }
         public void removeEmployee(Employee e)
         {
-            this.Employees.Remove(e);
+            this.employees.Remove(e);
         }
         
         public int PersCount()
         {
-            return (this.Employees.Count());
+            return (this.employees.Count());
         }
     }
 }
